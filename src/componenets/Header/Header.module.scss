@@ -1,0 +1,78 @@
+@import '../../variables.module.scss';
+
+.home {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: $grey-color;
+    color: $white-color;
+
+    div {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 15px;
+    }
+
+    h1 {
+        font-size: 50px;
+        letter-spacing: 4px;                
+    }
+
+    h2{
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+
+    button{
+        width: 100%;
+        text-align: left;
+        font-size: 20px;
+        background-color: $grey-color;
+        border: 0;
+        margin-top: 10px;
+        text-decoration: underline;
+
+        a{
+            color: $white-color;
+        };
+    }    
+}
+
+@media (min-width:330px){
+    h1, h2, button {
+        margin: auto;
+        width: 100%;
+    }    
+}
+
+@media (min-width: 450px){
+    .home div {
+        display: block;
+    }
+}
+@media (min-width:700px){
+    body .mobileNav {
+        display: none;
+    }
+
+    .home {
+        .mobOnly {
+            display: none;
+        }
+    }
+
+    .home button a {
+        &:hover {
+            color: $orange-color;
+            transition: 0.7s ease;
+            cursor: pointer;
+        }
+    }
+
+    .home, #bio, #projects, #contact {
+        margin-left: 20%;
+        width: auto;
+    }
+}
