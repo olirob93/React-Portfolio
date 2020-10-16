@@ -10,3 +10,8 @@ html{
     font-family: $main-font, $secondary-font;
     scroll-behavior: smooth;
 }
+
+main{
+    max-width: 100%;
+    overflow-x: hidden;
+}
