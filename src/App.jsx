@@ -4,15 +4,16 @@ import library from './data/fa-library';
 import MobileNav from './componenets/MobileNav'
 import DesktopNav from './componenets/DesktopNav';
 import Header from './componenets/Header';
+import Bio from './componenets/Bio';
 
 const App = () => {
   return (
     <>
-    <main>
-    <MobileNav />
-    <Header/>
-    <DesktopNav/>
-    </main>
+    <section>
+      <MobileNav />
+      <Header/>
+      <DesktopNav/>
+    </section>
     </>
   );
 }
