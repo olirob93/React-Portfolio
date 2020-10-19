@@ -1,0 +1,65 @@
+@import '../../variables.module.scss';
+
+.bio {
+    background-color: $white-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    color: $black-color;
+
+
+    .aboutHeader{
+        display: flex;
+        margin-top: 5px;
+        justify-content: center;
+
+        h3{
+            margin: 20px;
+            font-size: 35px;
+            align-self: center;
+            text-decoration: underline;
+        }
+        
+        img {
+                height: 125px;
+                width: 150px;
+                border-radius: 50%;
+        }
+    }    
+
+    p{
+        padding: 15px;
+        
+    }
+
+    .skillsIcons{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+
+        span   {
+            font-size: 35px;       
+            margin: 5px;     
+        }
+    }
+}
+@media (min-width:700px) {
+    .bio {
+        margin-left: 20%;
+        width: auto;
+    }
+}
+
+@media (min-width:900px){
+
+    .bio {
+        .skillsIcons span {
+            font-size: 50px;
+        }
+    p {
+        font-size: 20px;
+    }
+       
+    }
+}

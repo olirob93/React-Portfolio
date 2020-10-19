@@ -1,19 +1,18 @@
 import React from 'react';
 import './App.module.scss';
 import library from './data/fa-library';
-import MobileNav from './componenets/MobileNav'
-import DesktopNav from './componenets/DesktopNav';
-import Header from './componenets/Header';
-import Bio from './componenets/Bio';
+import Navs from './containers/Navs';
+import Routes from './containers/Routes';
 
 const App = () => {
+
   return (
     <>
     <section>
-      <MobileNav />
-      <Header/>
-      <DesktopNav/>
+    <Navs/>
     </section>
+    <Routes/>
+
     </>
   );
 }

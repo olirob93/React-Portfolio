@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './Header.module.scss';
+import styles from './Home.module.scss';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const Header = () => {
+const Home = () => {
     return (
         <section className={styles.home}>
         <div>
@@ -15,4 +15,4 @@ const Header = () => {
     )
 }
 
-export default Header;
+export default Home;
