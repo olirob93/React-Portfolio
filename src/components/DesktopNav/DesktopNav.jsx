@@ -13,7 +13,7 @@ const DesktopNav = () => {
                 <li><Link to="bio">Bio</Link></li>
                 <li><a>Projects</a></li>
                 <li><a>Blog</a></li>
-                <li><a>Contact</a></li>
+                <li><Link to="contact">Contact</Link></li>
                 <li><a>CV <span><FontAwesomeIcon icon='download' /></span></a></li>
             </ul>
         </nav>

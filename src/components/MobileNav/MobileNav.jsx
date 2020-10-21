@@ -11,7 +11,7 @@ return (
             <li><Link to="bio"><FontAwesomeIcon icon='address-card' /></Link></li>
             <li><a><FontAwesomeIcon icon='folder-open' /></a></li>
             <li><a><FontAwesomeIcon icon='blog' /></a></li>
-            <li><a><FontAwesomeIcon icon='envelope' /></a></li>
+            <li><Link to="contact"><FontAwesomeIcon icon='envelope' /></Link></li>
         </ul> 
     </nav>
 )
