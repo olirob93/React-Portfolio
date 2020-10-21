@@ -1,3 +1,3 @@
-import Contact from "./Contact";
+import ContactPage from './ContactPage';
 
-export default Contact
+export default ContactPage
