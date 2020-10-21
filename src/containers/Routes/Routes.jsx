@@ -2,7 +2,8 @@ import React from 'react';
 import { Router, Location } from '@reach/router';
 import Homepage from '../HomePage';
 import BioPage from '../BioPage';
-import Projects from '../ProjectsPage';
+import ProjectsPage from '../ProjectsPage';
+import ContactPage from '../ContactPage';
 import posed, { PoseGroup } from 'react-pose';
 
 const Routes = () => {
@@ -29,6 +30,7 @@ const Routes = () => {
             <Homepage path="/" />
             <BioPage path="bio" />
             <ProjectsPage path="projects"/>
+            <ContactPage path="contact"/>
         </PosedRouter>
 
       )

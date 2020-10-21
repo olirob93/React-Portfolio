@@ -1,6 +1,6 @@
 import React from 'react'
-import MobileNav from '../../componenets/MobileNav';
-import DesktopNav from '../../componenets/DesktopNav';
+import MobileNav from '../../components/MobileNav';
+import DesktopNav from '../../components/DesktopNav';
 
 const Navs = () => {
     return (

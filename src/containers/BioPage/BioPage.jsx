@@ -1,5 +1,5 @@
 import React from 'react';
-import Bio from '../../componenets/Bio';
+import Bio from '../../components/Bio';
 import text from '../../data/text.js';
 
 const BioPage = () => {
