@@ -5,7 +5,7 @@ import text from '../../data/text.js';
 const BioPage = () => {
     return (
         <div>
-            {text.map((item) => <Bio text={item} /> )}
+            {text.map((item, index) => <Bio key={index} text={item} /> )}
         </div>
     )
 }

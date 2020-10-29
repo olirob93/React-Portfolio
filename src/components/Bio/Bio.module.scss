@@ -7,7 +7,8 @@
     align-items: center;
     flex-wrap: wrap;
     color: $black-color;
-    height: 625px;
+    height: auto;
+    margin-bottom: 45px;
 
 
     .aboutHeader{
@@ -49,8 +50,8 @@
     .bio {
         margin-left: 20%;
         margin-top: 10px;
+        margin-bottom: 0px;
         width: auto;
-        height: auto;
     }
 }
 
