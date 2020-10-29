@@ -1,0 +1,60 @@
+@import '../../variables.module.scss';
+
+    .card {
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        height: auto;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 15px;
+        color: $black-color;
+        background-color: $white-color;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(5, 5, 5, 0.19);
+
+        .cardImg{
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .cardBody{
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            
+            .cardTitle{
+                font-size: 20px;
+                margin: 5px;
+            }
+
+            .cardText{
+                font-size: 15px;
+                margin: 5px;
+            }
+
+            .cardLinks {
+                display: flex;
+                justify-content: space-around;
+                margin: 5px;
+
+                a{
+                    text-decoration: none;
+                    color: $blue-color;
+                    padding: 5px;
+                    border-radius: 10px;
+                    font-size: 35px;
+                }
+            }
+        }
+    }
+
+
+@media (min-width: 550px){
+    .card{
+        width: 40%;
+        min-height: 450px;
+
+        .cardBody .cardLinks a:hover{
+            color: $orange-color;
+        }
+    }
+}
