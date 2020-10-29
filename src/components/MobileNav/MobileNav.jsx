@@ -9,7 +9,7 @@ return (
         <ul className={styles.navItems}>
             <li><Link to="/"><FontAwesomeIcon icon='home' /></Link></li>
             <li><Link to="bio"><FontAwesomeIcon icon='address-card' /></Link></li>
-            <li><Link to="projcts"><FontAwesomeIcon icon='folder-open' /></Link></li>
+            <li><Link to="projects"><FontAwesomeIcon icon='folder-open' /></Link></li>
             <li><a><FontAwesomeIcon icon='blog' /></a></li>
             <li><Link to="contact"><FontAwesomeIcon icon='envelope' /></Link></li>
         </ul> 
