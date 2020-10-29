@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Home.module.scss';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from '@reach/router';
 
 const Home = () => {
     return (
@@ -8,7 +9,7 @@ const Home = () => {
         <div>
             <h1>Ollie Robins</h1>
                 <h2>Software Developer</h2>
-                <a>View Portfolio</a>
+                <Link to='projects'>View Portfolio</Link>
                 <a className={styles.mobOnly} href="#">CV <span><FontAwesomeIcon icon='download' /></span></a>
         </div>
         </section>
