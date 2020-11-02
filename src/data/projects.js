@@ -11,7 +11,7 @@ const projects = [
     {
         id: 1,
         name: 'Punk Api',
-        cardText: 'This project was created in react and utalise the Punk Beers API',
+        cardText: 'This project was created in react and utalise the Punk Beers API, added in a searchbox and uses google sign in Authentication.',
         image: brewdog,
         GitUrl: '#',
         liveSiteUrl: 'https://brewdog-beers-api.web.app/'
@@ -29,9 +29,9 @@ const projects = [
     {
         id: 3 ,
         name: 'Portfolio Website',
-        cardText: 'With the new skills learnt on the course I re-built this portfolio website in React.',
+        cardText: 'With the new skills learnt on the course I re-built this portfolio website in React and hosted with firebase.',
         image: portfolio,
-        GitUrl: '#',
+        GitUrl: 'https://github.com/olirob93/React-Portfolio',
         liveSiteUrl: '#'
     },
 
