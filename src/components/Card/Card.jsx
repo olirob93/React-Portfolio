@@ -16,11 +16,11 @@ const {
 } = props.cardData
 
 useEffect(()=>{
-  AOS.init({ duration: 2000 })
+  AOS.init({ duration: 1000 })
 }, [])
 
   return (
-    <div data-aos='flip-right' className={styles.card}>
+    <div data-aos='slide-left' className={styles.card}>
       <img className={styles.cardImg} src={image} alt={name}/>
       <div className={styles.cardBody}>
         <h5 className={styles.cardTitle} >{name}</h5>
