@@ -3,6 +3,7 @@ import projects from '../../data/projects';
 import Card from '../../components/Card';
 import styles from './ProjectsPage.module.scss';
 
+
 const ProjectsPage = () => {
 
     return (

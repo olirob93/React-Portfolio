@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import styles from "./Card.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Card = (props) => { 
 
@@ -13,8 +15,12 @@ const {
   liveSiteUrl
 } = props.cardData
 
+useEffect(()=>{
+  AOS.init({ duration: 2000 })
+}, [])
+
   return (
-    <div className={styles.card}>
+    <div data-aos='flip-right' className={styles.card}>
       <img className={styles.cardImg} src={image} alt={name}/>
       <div className={styles.cardBody}>
         <h5 className={styles.cardTitle} >{name}</h5>

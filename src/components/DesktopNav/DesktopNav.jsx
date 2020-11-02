@@ -12,7 +12,7 @@ const DesktopNav = () => {
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="bio">Bio</Link></li>
                 <li><Link to="projects">Projects</Link></li>
-                <li><a>Blog</a></li>
+                {/*<li><a>Blog</a></li>*/}
                 <li><Link to="contact">Contact</Link></li>
                 <li><a>CV <span><FontAwesomeIcon icon='download' /></span></a></li>
             </ul>
