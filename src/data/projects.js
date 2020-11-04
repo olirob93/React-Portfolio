@@ -32,7 +32,7 @@ const projects = [
         cardText: 'With the new skills learnt on the course I re-built this portfolio website in React and hosted with firebase.',
         image: portfolio,
         GitUrl: 'https://github.com/olirob93/React-Portfolio',
-        liveSiteUrl: '#'
+        liveSiteUrl: ''
     },
 
     {
