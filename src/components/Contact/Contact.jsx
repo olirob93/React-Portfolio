@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Contact.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import CV from '../../assets/files/Nology cv (2).pdf'
+import CV from '../../assets/files/Nology cv .pdf'
 
 const Contact = () => {
   return (

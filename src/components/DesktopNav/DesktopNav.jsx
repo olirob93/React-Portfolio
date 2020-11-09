@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './DesktopNav.module.scss';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from '@reach/router';
-import CV from '../../assets/files/Nology cv (2).pdf'
+import CV from '../../assets/files/Nology cv .pdf'
 
 
 const DesktopNav = () => {
