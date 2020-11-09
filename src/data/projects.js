@@ -6,6 +6,7 @@ import morsecode from '../assets/images/morsecode.png';
 import tictactoe from '../assets/images/tictactoe.png';
 import brewdog from '../assets/images/brewdog.png';
 import portfolio from '../assets/images/portfolio.png';
+import No1southeast from '../assets/images/no1-south-east.png'
 
 const projects = [
     {
@@ -13,12 +14,21 @@ const projects = [
         name: 'Punk Api',
         cardText: 'This project was created in react and utalise the Punk Beers API, added in a searchbox and uses google sign in Authentication.',
         image: brewdog,
-        GitUrl: '#',
+        GitUrl: 'https://github.com/olirob93/Brewdog-Api',
         liveSiteUrl: 'https://brewdog-beers-api.web.app/'
     },
 
     {
         id: 2,
+        name: 'No1-South-East',
+        cardText: '4 week client project, the brief was to create a web app that allows users to sign up for exclusive offers for local restaurants.',
+        image: No1southeast,
+        GitUrl: 'https://github.com/nology-tech/no1-south-east',
+        liveSiteUrl: 'https://www.no1southeast.co.uk/'
+    },
+
+    {
+        id: 3,
         name: 'Vanilla Javascript Tic Tac Toe',
         cardText: 'Using vanilla Javascript created a game of tic tac toe using images to represent the players!',
         image: tictactoe,
@@ -27,7 +37,7 @@ const projects = [
     },
 
     {
-        id: 3 ,
+        id: 4,
         name: 'Portfolio Website',
         cardText: 'With the new skills learnt on the course I re-built this portfolio website in React and hosted with firebase.',
         image: portfolio,
@@ -36,7 +46,7 @@ const projects = [
     },
 
     {
-        id: 4 ,
+        id: 5,
         name: 'Javascript name generator',
         cardText: 'Fun name generator that uses Javascript switch statements to take the first letter of first name and surname and assign and set a name.',
         image: namegen,
@@ -45,7 +55,7 @@ const projects = [
     },
 
     {
-        id: 5,
+        id: 6,
         name: 'Bootstrap Theme',
         cardText: 'Using HTML5, CSS3, Bootstrap 4, Jquery to create a responsive website template for a software as a service business. In this project I used Jquery Eko light box and Bootstrap carousel features.',
         image: glozzom,
@@ -54,7 +64,7 @@ const projects = [
     },
 
     {
-        id: 6,
+        id: 7,
         name: 'Vanilla Javascript Calculator',
         cardText: 'Vanilla Javascript project, interacting with the DOM and using array iterators and call back functions',
         image: calculator,
@@ -63,7 +73,7 @@ const projects = [
     },
     
     {
-        id: 7,
+        id: 8,
         name: 'Vanilla Javascript Morse Code Converter',
         cardText: '3 Hour coding challenge to produce a Morse Code Coverter',
         image: morsecode,
@@ -72,7 +82,7 @@ const projects = [
     },
 
     {
-        id: 8,
+        id: 9,
         name: 'Coming Soon',
         cardText: 'Keep an eye out for my next project! Which is likely to be our client project',
         image: comingsoon,

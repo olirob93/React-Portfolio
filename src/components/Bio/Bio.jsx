@@ -5,7 +5,7 @@ import profilePic from '../../assets/images/profile pic.png';
 
 const Bio = (props) => {
 
-const {bio1, bio2} = props.text;
+const {bio1, bio2, bio3} = props.text;
 
     return (
         <section className={styles.bio}>     
@@ -14,7 +14,8 @@ const {bio1, bio2} = props.text;
                 <img src={profilePic} alt="profile picture of me"/>
             </div>
                 <p>{bio1}</p>
-                <p>{bio2}</p>   
+                <p>{bio2}</p> 
+                <p>{bio3}</p>  
         <div className={styles.skillsIcons}>
             <span><FontAwesomeIcon icon={["fab", "html5"]} /></span>
             <span><FontAwesomeIcon icon={["fab", "css3-alt"]} /></span>
@@ -31,8 +32,7 @@ const {bio1, bio2} = props.text;
             <span><FontAwesomeIcon icon={["fab", "npm"]} /></span>
             <span><FontAwesomeIcon icon='database' /></span>
         </div>
-        </section>    
-        
+        </section>        
     );
 }
 

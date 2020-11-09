@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Contact.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import CV from '../../assets/files/Nology cv (2).pdf'
 
 const Contact = () => {
   return (
@@ -14,7 +15,7 @@ const Contact = () => {
                 <h4>Location</h4>
                 <p>Surrey, KT8</p>
                 <h4>CV</h4>
-                <a href="#"><p>Download <span><FontAwesomeIcon icon={["fab", "download"]} /></span></p></a>
+                <a href={CV} target="_blank"><p>Download <span><FontAwesomeIcon icon={["fab", "download"]} /></span></p></a>
             </div>
             <div className={styles.iconLinks}>
                 <a href="https://www.linkedin.com/in/ollierobins/" target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
