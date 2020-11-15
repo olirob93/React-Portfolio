@@ -6,7 +6,8 @@ import morsecode from '../assets/images/morsecode.png';
 import tictactoe from '../assets/images/tictactoe.png';
 import brewdog from '../assets/images/brewdog.png';
 import portfolio from '../assets/images/portfolio.png';
-import No1southeast from '../assets/images/no1-south-east.png'
+import No1southeast from '../assets/images/no1-south-east.png';
+import todoList from '../assets/images/Todo List.png'
 
 const projects = [
     {
@@ -83,6 +84,16 @@ const projects = [
 
     {
         id: 9,
+        name: 'Todo List',
+        cardText: 'Todo list in React using class based components. Api integration for random user.',
+        image: todoList,
+        GitUrl: 'https://github.com/olirob93/TodoList',
+        liveSiteUrl: 'https://todolist-3de59.web.app/'
+    },
+
+
+    {
+        id: 10,
         name: 'Coming Soon',
         cardText: 'Keep an eye out for my next project! Which is likely to be our client project',
         image: comingsoon,
