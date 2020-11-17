@@ -7,13 +7,14 @@ import tictactoe from '../assets/images/tictactoe.png';
 import brewdog from '../assets/images/brewdog.png';
 import portfolio from '../assets/images/portfolio.png';
 import No1southeast from '../assets/images/no1-south-east.png';
-import todoList from '../assets/images/Todo List.png'
+import todoList from '../assets/images/Todo List.png';
+import typescript from '../assets/images/typescript.png';
 
 const projects = [
     {
         id: 1,
         name: 'Punk Api',
-        cardText: 'This project was created in react and utalise the Punk Beers API, added in a searchbox and uses google sign in Authentication.',
+        cardText: 'This project was created in react and utilizes the Punk Beers API, added in a searchbar and uses google sign in Authentication.',
         image: brewdog,
         GitUrl: 'https://github.com/olirob93/Brewdog-Api',
         liveSiteUrl: 'https://brewdog-beers-api.web.app/'
@@ -48,6 +49,25 @@ const projects = [
 
     {
         id: 5,
+        name: 'Todo List',
+        cardText: 'Todo list built in React using class based components. Api integration for random user.',
+        image: todoList,
+        GitUrl: 'https://github.com/olirob93/TodoList',
+        liveSiteUrl: 'https://todolist-3de59.web.app/'
+    },
+
+
+    {
+        id: 6,
+        name: 'Breaking Bad API',
+        cardText: 'Intro into using typescript, using API to display quotes from breaking bad on the page',
+        image: typescript,
+        GitUrl: 'https://github.com/olirob93/BreakingBadAPI',
+        liveSiteUrl: 'https://olirob93.github.io/BreakingBadAPI/'
+    },
+
+    {
+        id: 7,
         name: 'Javascript name generator',
         cardText: 'Fun name generator that uses Javascript switch statements to take the first letter of first name and surname and assign and set a name.',
         image: namegen,
@@ -56,7 +76,7 @@ const projects = [
     },
 
     {
-        id: 6,
+        id: 8,
         name: 'Bootstrap Theme',
         cardText: 'Using HTML5, CSS3, Bootstrap 4, Jquery to create a responsive website template for a software as a service business. In this project I used Jquery Eko light box and Bootstrap carousel features.',
         image: glozzom,
@@ -65,7 +85,7 @@ const projects = [
     },
 
     {
-        id: 7,
+        id: 9,
         name: 'Vanilla Javascript Calculator',
         cardText: 'Vanilla Javascript project, interacting with the DOM and using array iterators and call back functions',
         image: calculator,
@@ -74,26 +94,17 @@ const projects = [
     },
     
     {
-        id: 8,
+        id: 10,
         name: 'Vanilla Javascript Morse Code Converter',
-        cardText: '3 Hour coding challenge to produce a Morse Code Coverter',
+        cardText: '3 Hour coding challenge to produce a Morse Code Converter',
         image: morsecode,
         GitUrl: 'https://github.com/olirob93/Morse-Code-Converter',
         liveSiteUrl: 'https://olirob93.github.io/Morse-Code-Converter/'
     },
 
+    
     {
-        id: 9,
-        name: 'Todo List',
-        cardText: 'Todo list in React using class based components. Api integration for random user.',
-        image: todoList,
-        GitUrl: 'https://github.com/olirob93/TodoList',
-        liveSiteUrl: 'https://todolist-3de59.web.app/'
-    },
-
-
-    {
-        id: 10,
+        id: 11,
         name: 'Coming Soon',
         cardText: 'Keep an eye out for my next project! Which is likely to be our client project',
         image: comingsoon,

@@ -11,7 +11,7 @@
         margin-top: 10px;
         margin-bottom: 10px;
         font-size: 35px;
-        color: $black-color;
+        color: $blue-color;
         width: 100%;
         text-decoration: underline;
         text-align: center;
@@ -52,9 +52,24 @@ justify-content: center;
     .contact {
             margin-left: 20%;
             width: auto;
+            height: 100vh;
+
+            h3{
+                font-size: 50px;
+                margin: 0px;
+            }
+
 
         .contDets{
             text-align: center;
+
+            h4{
+                font-size: 30px;
+            }
+
+            p{
+                font-size: 20px;
+            }
 
             a p:hover{
                 color: $orange-color;
