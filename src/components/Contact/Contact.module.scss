@@ -5,6 +5,8 @@
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
+    height: 100vh;
+    text-align: center;
     justify-content: space-evenly;
 
     h3{
@@ -38,16 +40,16 @@
 }
 
 .iconLinks {
-display: flex;
-justify-content: center; 
-    a {
-        color: $blue-color;
-        margin: 10px;
-        font-size: 75px;
-
+    display: flex;
+    justify-content: center; 
+        a {
+            color: $blue-color;
+            margin: 10px;
+            font-size: 75px;
+        }
     }
 }
-}
+
 @media (min-width:700px){
     .contact {
             margin-left: 20%;
@@ -81,6 +83,38 @@ justify-content: center;
             a:hover{
                 color: $orange-color;
                 transition: 0.75s ease;
+            }
+        }
+    }
+}
+
+@media(min-width: 2000px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    
+        h3{
+            font-size: 75px;
+        }
+    
+        .contDets{        
+            h4 {
+                font-size: 45px;
+            }    
+            a{
+                text-decoration: none;
+            }    
+            p {
+                font-size: 30px;
+                font-weight: bold;
+            }
+        }
+        
+        .iconLinks {
+            a {
+                font-size: 100px;
             }
         }
     }

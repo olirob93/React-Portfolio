@@ -61,8 +61,40 @@
         .skillsIcons span {
             font-size: 50px;
         }
-    p {
-        font-size: 20px;
-    }     
+        p {
+            font-size: 20px;
+        }     
+    }
+}
+
+@media(min-width: 2000px) {
+    .bio {    
+        .aboutHeader{
+            display: flex;
+            margin-top: 5px;
+            justify-content: center;
+    
+            h3{
+                margin: 20px;
+                font-size: 75px;
+                align-self: center;
+                text-decoration: underline;
+            }
+            
+            img {
+                height: 350px;
+                width: 450px;
+            }
+        }    
+    
+        p{
+            font-size: 35px;
+        }
+    
+        .skillsIcons{
+            span   {
+                font-size: 100px;           
+            }
+        }
     }
 }
