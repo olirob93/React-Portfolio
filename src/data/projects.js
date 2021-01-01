@@ -9,19 +9,12 @@ import portfolio from '../assets/images/portfolio.png';
 import No1southeast from '../assets/images/no1-south-east.png';
 import todoList from '../assets/images/Todo List.png';
 import typescript from '../assets/images/typescript.png';
+import Crud from '../assets/images/crud.png';
+import Ecom from '../assets/images/Ecom.png';
 
 const projects = [
     {
         id: 1,
-        name: 'Punk Api',
-        cardText: 'This project was created in react and utilizes the Punk Beers API, added in a searchbar and uses google sign in Authentication.',
-        image: brewdog,
-        GitUrl: 'https://github.com/olirob93/Brewdog-Api',
-        liveSiteUrl: 'https://brewdog-beers-api.web.app/'
-    },
-
-    {
-        id: 2,
         name: 'No1-South-East',
         cardText: '4 week client project, the brief was to create a web app that allows users to sign up for exclusive offers for local restaurants.',
         image: No1southeast,
@@ -30,7 +23,35 @@ const projects = [
     },
 
     {
+        id: 2,
+        name: 'Ecommerce',
+        cardText: 'Currently working on this project. It is an Ecommerce site built with a React front-end and firebase as a baas. So far integrated user sign up and sign in with google and stored user in DB',
+        image: Ecom,
+        GitUrl: 'https://github.com/olirob93/Ecommerce-Site',
+        liveSiteUrl: '#'
+    },
+
+    {
         id: 3,
+        name: 'CRUD Application',
+        cardText: 'React front-end, Node.js & MongoDB for the API which is deployed on herkou',
+        image: Crud,
+        GitUrl: 'https://github.com/olirob93/golfcourseapifrontend',
+        liveSiteUrl: 'https://crud-app-23804.web.app/'
+    },
+    
+
+    {
+        id: 4,
+        name: 'Punk Api',
+        cardText: 'This project was created in react and utilizes the Punk Beers API, added in a searchbar and uses google sign in Authentication.',
+        image: brewdog,
+        GitUrl: 'https://github.com/olirob93/Brewdog-Api',
+        liveSiteUrl: 'https://brewdog-beers-api.web.app/'
+    },
+
+    {
+        id: 5,
         name: 'Vanilla Javascript Tic Tac Toe',
         cardText: 'Using vanilla Javascript created a game of tic tac toe using images to represent the players!',
         image: tictactoe,
@@ -39,7 +60,7 @@ const projects = [
     },
 
     {
-        id: 4,
+        id: 6,
         name: 'Portfolio Website',
         cardText: 'With the new skills learnt on the course I re-built this portfolio website in React and hosted with firebase.',
         image: portfolio,
@@ -48,7 +69,7 @@ const projects = [
     },
 
     {
-        id: 5,
+        id: 7,
         name: 'Todo List',
         cardText: 'Todo list built in React using class based components. Api integration for random user.',
         image: todoList,
@@ -58,7 +79,7 @@ const projects = [
 
 
     {
-        id: 6,
+        id: 8,
         name: 'Breaking Bad API',
         cardText: 'Intro into using typescript, using API to display quotes from breaking bad on the page',
         image: typescript,
@@ -66,17 +87,10 @@ const projects = [
         liveSiteUrl: 'https://olirob93.github.io/BreakingBadAPI/'
     },
 
-    {
-        id: 7,
-        name: 'Javascript name generator',
-        cardText: 'Fun name generator that uses Javascript switch statements to take the first letter of first name and surname and assign and set a name.',
-        image: namegen,
-        GitUrl: 'https://github.com/olirob93/LOTR-Random-Name-Generator',
-        liveSiteUrl: 'https://olirob93.github.io/LOTR-Random-Name-Generator/'
-    },
+    
 
     {
-        id: 8,
+        id: 9,
         name: 'Bootstrap Theme',
         cardText: 'Using HTML5, CSS3, Bootstrap 4, Jquery to create a responsive website template for a software as a service business. In this project I used Jquery Eko light box and Bootstrap carousel features.',
         image: glozzom,
@@ -85,7 +99,7 @@ const projects = [
     },
 
     {
-        id: 9,
+        id: 10,
         name: 'Vanilla Javascript Calculator',
         cardText: 'Vanilla Javascript project, interacting with the DOM and using array iterators and call back functions',
         image: calculator,
@@ -94,7 +108,7 @@ const projects = [
     },
     
     {
-        id: 10,
+        id: 11,
         name: 'Vanilla Javascript Morse Code Converter',
         cardText: '3 Hour coding challenge to produce a Morse Code Converter',
         image: morsecode,
@@ -104,9 +118,9 @@ const projects = [
 
     
     {
-        id: 11,
+        id: 12,
         name: 'Coming Soon',
-        cardText: 'Keep an eye out for my next project! Which is likely to be our client project',
+        cardText: 'Keep an eye out for my next project!',
         image: comingsoon,
         GitUrl: '#',
         liveSiteUrl: '#'
@@ -115,3 +129,12 @@ const projects = [
 
 
 export default projects
+
+// {
+//     id: ,
+//     name: 'Javascript name generator',
+//     cardText: 'Fun name generator that uses Javascript switch statements to take the first letter of first name and surname and assign and set a name.',
+//     image: namegen,
+//     GitUrl: 'https://github.com/olirob93/LOTR-Random-Name-Generator',
+//     liveSiteUrl: 'https://olirob93.github.io/LOTR-Random-Name-Generator/'
+// }
