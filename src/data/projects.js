@@ -1,16 +1,18 @@
-import namegen from '../assets/images/namegen.png';
-import calculator from '../assets/images/calculator.png';
-import comingsoon from '../assets/images/comingsoon.png';
 import glozzom from '../assets/images/glozzom.png';
 import morsecode from '../assets/images/morsecode.png';
-import tictactoe from '../assets/images/tictactoe.png';
 import brewdog from '../assets/images/brewdog.png';
-import portfolio from '../assets/images/portfolio.png';
 import No1southeast from '../assets/images/no1-south-east.png';
-import todoList from '../assets/images/Todo List.png';
 import typescript from '../assets/images/typescript.png';
-import Crud from '../assets/images/crud.png';
 import Ecom from '../assets/images/Ecom.png';
+
+//stored at the bottom not being used
+// import calculator from '../assets/images/calculator.png';
+// import comingsoon from '../assets/images/comingsoon.png';
+// import Crud from '../assets/images/crud.png';
+// import todoList from '../assets/images/Todo List.png';
+// import portfolio from '../assets/images/portfolio.png'
+// import tictactoe from '../assets/images/tictactoe.png';
+// import namegen from '../assets/images/namegen.png';
 
 const projects = [
     {
@@ -29,102 +31,39 @@ const projects = [
         image: Ecom,
         GitUrl: 'https://github.com/olirob93/Ecommerce-Site',
         liveSiteUrl: '#'
-    },
-
+    },  
     {
         id: 3,
-        name: 'CRUD Application',
-        cardText: 'React front-end, Node.js & MongoDB for the API which is deployed on herkou',
-        image: Crud,
-        GitUrl: 'https://github.com/olirob93/golfcourseapifrontend',
-        liveSiteUrl: 'https://crud-app-23804.web.app/'
-    },
-    
-
-    {
-        id: 4,
         name: 'Punk Api',
         cardText: 'This project was created in react and utilizes the Punk Beers API, added in a searchbar and uses google sign in Authentication.',
         image: brewdog,
         GitUrl: 'https://github.com/olirob93/Brewdog-Api',
         liveSiteUrl: 'https://brewdog-beers-api.web.app/'
     },
-
     {
-        id: 5,
-        name: 'Vanilla Javascript Tic Tac Toe',
-        cardText: 'Using vanilla Javascript created a game of tic tac toe using images to represent the players!',
-        image: tictactoe,
-        GitUrl: 'https://github.com/olirob93/Tic-Tac-Toe',
-        liveSiteUrl: 'https://olirob93.github.io/Tic-Tac-Toe/'
-    },
-
-    {
-        id: 6,
-        name: 'Portfolio Website',
-        cardText: 'With the new skills learnt on the course I re-built this portfolio website in React and hosted with firebase.',
-        image: portfolio,
-        GitUrl: 'https://github.com/olirob93/React-Portfolio',
-        liveSiteUrl: ''
-    },
-
-    {
-        id: 7,
-        name: 'Todo List',
-        cardText: 'Todo list built in React using class based components. Api integration for random user.',
-        image: todoList,
-        GitUrl: 'https://github.com/olirob93/TodoList',
-        liveSiteUrl: 'https://todolist-3de59.web.app/'
-    },
-
-
-    {
-        id: 8,
+        id: 4,
         name: 'Breaking Bad API',
         cardText: 'Intro into using typescript, using API to display quotes from breaking bad on the page',
         image: typescript,
         GitUrl: 'https://github.com/olirob93/BreakingBadAPI',
         liveSiteUrl: 'https://olirob93.github.io/BreakingBadAPI/'
-    },
-
-    
-
+    },   
     {
-        id: 9,
+        id: 5,
         name: 'Bootstrap Theme',
         cardText: 'Using HTML5, CSS3, Bootstrap 4, Jquery to create a responsive website template for a software as a service business. In this project I used Jquery Eko light box and Bootstrap carousel features.',
         image: glozzom,
         GitUrl: 'https://github.com/olirob93/Glozzom-Website',
         liveSiteUrl: 'https://olirob93.github.io/Glozzom-Website/'
-    },
-
+    }, 
     {
-        id: 10,
-        name: 'Vanilla Javascript Calculator',
-        cardText: 'Vanilla Javascript project, interacting with the DOM and using array iterators and call back functions',
-        image: calculator,
-        GitUrl: 'https://github.com/olirob93/Vanilla-Javascript-Calculator',
-        liveSiteUrl: 'https://olirob93.github.io/Vanilla-Javascript-Calculator/'
-    },
-    
-    {
-        id: 11,
+        id: 6,
         name: 'Vanilla Javascript Morse Code Converter',
         cardText: '3 Hour coding challenge to produce a Morse Code Converter',
         image: morsecode,
         GitUrl: 'https://github.com/olirob93/Morse-Code-Converter',
         liveSiteUrl: 'https://olirob93.github.io/Morse-Code-Converter/'
-    },
-
-    
-    {
-        id: 12,
-        name: 'Coming Soon',
-        cardText: 'Keep an eye out for my next project!',
-        image: comingsoon,
-        GitUrl: '#',
-        liveSiteUrl: '#'
-    }
+    },   
 ];
 
 
@@ -138,3 +77,56 @@ export default projects
 //     GitUrl: 'https://github.com/olirob93/LOTR-Random-Name-Generator',
 //     liveSiteUrl: 'https://olirob93.github.io/LOTR-Random-Name-Generator/'
 // }
+
+// {
+    //     id: 12,
+    //     name: 'Coming Soon',
+    //     cardText: 'Keep an eye out for my next project!',
+    //     image: comingsoon,
+    //     GitUrl: '#',
+    //     liveSiteUrl: '#'
+    // }
+
+    // {
+    //     id: 10,
+    //     name: 'Vanilla Javascript Calculator',
+    //     cardText: 'Vanilla Javascript project, interacting with the DOM and using array iterators and call back functions',
+    //     image: calculator,
+    //     GitUrl: 'https://github.com/olirob93/Vanilla-Javascript-Calculator',
+    //     liveSiteUrl: 'https://olirob93.github.io/Vanilla-Javascript-Calculator/'
+    // },
+
+        // {
+    //     id: 5,
+    //     name: 'Vanilla Javascript Tic Tac Toe',
+    //     cardText: 'Using vanilla Javascript created a game of tic tac toe using images to represent the players!',
+    //     image: tictactoe,
+    //     GitUrl: 'https://github.com/olirob93/Tic-Tac-Toe',
+    //     liveSiteUrl: 'https://olirob93.github.io/Tic-Tac-Toe/'
+    // },
+
+    // {
+    //     id: 6,
+    //     name: 'Portfolio Website',
+    //     cardText: 'With the new skills learnt on the course I re-built this portfolio website in React and hosted with firebase.',
+    //     image: portfolio,
+    //     GitUrl: 'https://github.com/olirob93/React-Portfolio',
+    //     liveSiteUrl: ''
+    // },
+
+    // {
+    //     id: 7,
+    //     name: 'Todo List',
+    //     cardText: 'Todo list built in React using class based components. Api integration for random user.',
+    //     image: todoList,
+    //     GitUrl: 'https://github.com/olirob93/TodoList',
+    //     liveSiteUrl: 'https://todolist-3de59.web.app/'
+    // },
+    // {
+    //     id: 3,
+    //     name: 'CRUD Application',
+    //     cardText: 'React front-end, Node.js & MongoDB for the API which is deployed on herkou',
+    //     image: Crud,
+    //     GitUrl: 'https://github.com/olirob93/golfcourseapifrontend',
+    //     liveSiteUrl: 'https://crud-app-23804.web.app/'
+    // },
