@@ -4,6 +4,7 @@ import Homepage from '../HomePage';
 import BioPage from '../BioPage';
 import ProjectsPage from '../ProjectsPage';
 import ContactPage from '../ContactPage';
+import MotokikiPage from '../Individual Project Pages/Motokiki';
 import posed, { PoseGroup } from 'react-pose';
 
 const Routes = () => {
@@ -31,6 +32,7 @@ const Routes = () => {
             <BioPage path="bio" />
             <ProjectsPage path="projects"/>
             <ContactPage path="contact"/>
+            <MotokikiPage path="motokiki"/>
         </PosedRouter>
 
       )

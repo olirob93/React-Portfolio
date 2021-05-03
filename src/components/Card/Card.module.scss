@@ -10,6 +10,7 @@
         color: $black-color;
         background-color: $white-color;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(5, 5, 5, 0.19);
+        border-radius: 10px;
 
         .cardImg{
             width: 100%;
@@ -48,10 +49,10 @@
     }
 
 
-@media (min-width: 550px){
+@media (min-width: 1024px){
     .card{
-        width: 40%;
-        min-height: 450px;
+        display: flex;
+        width: 80%;
 
         .cardBody .cardLinks a:hover{
             color: $orange-color;

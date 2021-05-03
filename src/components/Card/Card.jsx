@@ -12,7 +12,7 @@ const {
   cardText,
   image,
   GitUrl,
-  liveSiteUrl
+  liveSiteUrl,
 } = props.cardData
 
 useEffect(()=>{
@@ -20,18 +20,20 @@ useEffect(()=>{
 }, [])
 
   return (
-    <div data-aos='slide-left' className={styles.card}>
+    <div data-aos='slide-left' className={styles.card} id={id}>      
       <img className={styles.cardImg} src={image} alt={name}/>
       <div className={styles.cardBody}>
         <h5 className={styles.cardTitle} >{name}</h5>
         <p className={styles.cardText}>{cardText}</p>
         <div className={styles.cardLinks}>
-          <a href={liveSiteUrl} target="_blank">
+          <a href={liveSiteUrl} target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={["fab", "chrome"]} />
           </a>
-          <a href={GitUrl} target="_blank">
+          {GitUrl && (
+            <a href={GitUrl} target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={["fab", "github"]} />
           </a>
+          )}          
         </div>
       </div>
     </div>

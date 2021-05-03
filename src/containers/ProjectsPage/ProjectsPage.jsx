@@ -2,6 +2,7 @@ import React from 'react'
 import projects from '../../data/projects';
 import Card from '../../components/Card';
 import styles from './ProjectsPage.module.scss';
+import { Link } from '@reach/router';
 
 
 const ProjectsPage = () => {
@@ -10,7 +11,7 @@ const ProjectsPage = () => {
         <section className={styles.projects}>
             <h3>Projects</h3>
             <div className={styles.cardContainer}>
-                {projects.map((card) => <Card key={card.id} cardData={card} />)}   
+                {projects.map((card) => <Link style={{textDecoration: "none"}} to={card.internalPage}> <Card key={card.id} cardData={card} /></Link>)}                   
             </div> 
         </section>
     )
