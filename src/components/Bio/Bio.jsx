@@ -10,7 +10,7 @@ const {bio1, bio2, bio3} = props.text;
     return (
         <section className={styles.bio}>     
             <div className={styles.aboutHeader}>
-                <h3>BIO</h3>            
+                <h3>ABOUT ME</h3>            
                 <img src={profilePic} alt="profile picture of me"/>
             </div>
                 <p>{bio1}</p>
